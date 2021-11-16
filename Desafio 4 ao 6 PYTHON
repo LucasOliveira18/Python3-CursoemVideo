@@ -1,0 +1,31 @@
+##
+DESAFIO 4
+
+a = input('Digite algo:')
+print('O tipo primitivo desse valor é ',type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está em Maiúscula?' , a.islower())
+print('Está em minúsculas?', a.isupper())
+print('Está capitalizada? ', a.istitle())
+
+##
+
+DESAFIO 5
+
+a = int(input('Digite um numero:'))
+b= a+1
+c= a-1
+print('O numero selecionado foi {} o sucessor é {} e o antecessor é {}'.format(a, b, c))
+
+##
+
+DESAFIO 6
+
+a= int(input('Digite um numero: '))
+b= a*2
+c= a*3
+d= a**2
+print('O numero é {} \n o seu dobro é {} \n o seu triplo é {} \ne sua raiz quadrada é {}'.format(a, b, c, d))
