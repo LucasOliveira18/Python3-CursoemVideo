@@ -1,0 +1,66 @@
+##
+
+DESAFIO 18
+
+import math
+angulo=float(input('Digite o angulo que você deseja: '))
+seno= math.sin(math.radians(angulo))
+print('O angelo de {} tem o SENO de {:.2f}'.format(angulo, seno))
+cosseno= math.cos(math.radians(angulo))
+print('O angulo de {} tem o COSSENO de {:.2f}'.format(angulo, cosseno))
+tangente= math.tan(math.radians(angulo))
+print('O angulo de {} tem a TANGENTE DE {:.2f}'. format(angulo, tangente))
+
+#from math import radians, sin, cos, tan
+#angulo=float(input('Digite o angulo que você deseja: '))
+#seno= sin(radians(angulo))
+#print('O angelo de {} tem o SENO de {:.2f}'.format(angulo, seno))
+#cosseno=cos(radians(angulo))
+#print('O angulo de {} tem o COSSENO de {:.2f}'.format(angulo, cosseno))
+#tangente= tan(radians(angulo))
+#print('O angulo de {} tem a TANGENTE DE {:.2f}'. format(angulo, tangente))
+
+
+##
+
+DESAFIO  19
+
+import random
+a1=str(input('Digite um Nome:'))
+a2=str(input('Digite um Nome:'))
+a3=str(input('Digite um nome:'))
+a4=str(input('Digite um nome:'))
+print('O nome do aluno sorteado é {}'.format(random.choice([a1, a2, a3, a4])))
+
+#import random
+#a1=str(input('Digite um Nome:'))
+#a2=str(input('Digite um Nome:'))
+#a3=str(input('Digite um nome:'))
+#a4=str(input('Digite um nome:'))
+#lista=[a1, a2, a3, a4]
+#escolhido= random.choice(lista)
+#print('O aluno escolhido foi {}'.format(escolhido))
+
+##
+
+DESAFIO 20
+
+import random
+a1=str(input('Digite um Nome:'))
+a2=str(input('Digite um Nome:'))
+a3=str(input('Digite um nome:'))
+a4=str(input('Digite um nome:'))
+lista=[a1, a2, a3, a4]
+random.shuffle(lista)
+print('A ordem de apresentação é:')
+print(lista)
+
+##
+
+DESAFIO 21
+
+import pygame
+pygame.init()
+pygame.mixer.music.load('')
+pygame.mixer.music.play()
+pygame.event.wait()
