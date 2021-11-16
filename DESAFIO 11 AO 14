@@ -1,0 +1,38 @@
+##
+
+DESAFIO 11
+
+a=float(input('Digite a altura da parede: '))
+b=float(input('Digite a largura da parede: '))
+total=float( a*b)
+tinta= total /2
+
+print('A parede tem {}m quadrados e usara {} litros de tinta'.format(total, tinta))
+
+##
+
+DESAFIO 12
+
+a=float(input('Digite o valor da peça: '))
+b= a/100 *5
+vf= a - b
+
+print('O valor da peça é {} com o desconto de 5% fica{}'.format(a,vf))
+
+##
+
+DESAFIO 13
+
+a=float(input('Digite o salario do funcionario:'))
+b=a/100 *15
+sf=float(a+b)
+
+print('O valor do salario atual do funcionario é {}!'.format(sf))
+
+##
+
+DESAFIO 14
+
+a=float(input('Informe a temperatura em ºC: '))
+b = ((9 * a) /5 ) + 32
+print('A temperatuda de {}ºC corresponde a {} ºF'. format(a, b))
