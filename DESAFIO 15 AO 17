@@ -1,0 +1,49 @@
+##
+
+DESAFIO 15
+
+a= float(input('Digite quantos km você percorreu: '))
+b= int(input('Digite quantos dias voce ficou com o carro: '))
+dia= b * 60
+gas= a * 0.15
+print('O total a se pagar pelo carro é {} e pelos kms rodados é {} e o total a se pagar é {}'.format(dia, gas, (dia+gas)))
+
+##
+
+DESAFIO 16
+
+from math import trunc
+num=float(input('Digite um valor:'))
+print('O valor digitado foi {} e sua porção inteira é {}'.format(num, trunc(num)))
+
+#from math import floor
+#num=float(input('Digite um valor:'))
+#print('O valor digitado foi {} e sua porção inteira é {}'.format(num, floor(num)))
+
+#num=float(input(‘Digite um valor: ’)
+#print(‘O valor digitado foi {} e sua proção inteira é {}’. Format(num, int(num)))
+
+##
+
+
+DESAFIO 17
+
+#co = float(input('O comprimento do cateto oposto é: '))
+#ca = float(input('O comprimento do cateto adjacente é: '))
+#hi = (co ** 2 + ca ** 2) ** (1/2)
+#print('A hipotenusa vai medir {:.2f}'. format(hi))
+
+#import math
+#co = float(input('O comprimento do cateto oposto é: '))
+#ca = float(input('O comprimento do cateto adjacente é: '))
+#hi= math.hypot(co, ca)
+#print('A hipotenusa vai medir {:.2f}'.format(hi))
+
+from math import hypot
+
+co=float(input('O comprimento do cateto oposto é: '))
+ca=float(input('O comprimento do cateto adjacente é: '))
+hi= hypot(co, ca)
+print('A hipotenusa vai medir {:.2f}'.format(hi))
+
+##
